@@ -10,21 +10,39 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 📅 Recurring Date Picker
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+A customizable and fully-featured recurring date picker component built using **React**, **Next.js**, and **Tailwind CSS**. Supports daily, weekly, monthly, and yearly recurrence patterns.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🗓️ Daily / Weekly / Monthly / Yearly recurrence options
+- 🔁 Custom intervals (e.g., every 3 days, 2 weeks, etc.)
+- 📆 Weekday selection
+- 📍 Advanced patterns like “Second Tuesday of every month”
+- 📅 Start and End date selection
+- 🧩 Mini calendar preview
+- 🌐 Built with React, Tailwind CSS, Zustand/Context API
+- ✅ Unit + integration test ready
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- React / Next.js
+- Tailwind CSS
+- Zustand / Context API
+- TypeScript
+- Jest + React Testing Library
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/poornimasa/recurring-date-picker.git
+cd recurring-date-picker
+npm install
+npm run dev
